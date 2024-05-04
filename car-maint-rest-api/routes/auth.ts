@@ -19,7 +19,7 @@ import UserModel from "../models/userModel";
 
 /////////////////////////////////////////////
 //Routes
-router_auth.POST("/signup", [
+router_auth.post("/signup", [
     
     body_auth("name")
     .trim()
@@ -49,7 +49,7 @@ router_auth.POST("/signup", [
 
 ], authController.signUp);
 
-router_auth.POST("/login", [
+router_auth.post("/login", [
 
     body_auth("email")
     .isEmail()
@@ -75,7 +75,7 @@ router_auth.POST("/login", [
 ], authController.login);
 
 
-router_auth.GET("/test", authController.test);
+router_auth.get("/test", authController.test);
 
 
 
