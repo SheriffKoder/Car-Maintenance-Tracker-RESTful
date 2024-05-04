@@ -26,7 +26,7 @@ const userModel_1 = __importDefault(require("../models/userModel"));
 */
 /////////////////////////////////////////////
 //Routes
-router_auth.POST("/signup", [
+router_auth.post("/signup", [
     body_auth("name")
         .trim()
         .isLength({ min: 4 })
@@ -48,7 +48,7 @@ router_auth.POST("/signup", [
         .trim()
         .withMessage("Password should be more than 4 characters"),
 ], authController.signUp);
-router_auth.POST("/login", [
+router_auth.post("/login", [
     body_auth("email")
         .isEmail()
         .withMessage("Please enter a valid email")
@@ -66,6 +66,6 @@ router_auth.POST("/login", [
         .trim()
         .withMessage("Password should be more than 4 characters"),
 ], authController.login);
-router_auth.GET("/test", authController.test);
+router_auth.get("/test", authController.test);
 /////////////////////////////////////////////
 module.exports = router_auth;
