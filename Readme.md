@@ -1,7 +1,7 @@
 ## **Car Maintenance Tracker (REST API/React App)**
 
 This is a full-stack project consisting of two applications
-- Back-end application; Built using Node.js/Express.js/MongoDB acting as a REST API [[ Go to folder for more details ]](https://github.com/SheriffKoder/carmaint-rest-full/tree/main/car-maint-rest-api) built upon my [older repo](https://github.com/SheriffKoder/phase-3/tree/main/projects/car-maint-rest-api).
+- Back-end application; Built using Node.js/Express.js/Typescript/MongoDB acting as a REST API [[ Go to folder for more details ]](https://github.com/SheriffKoder/carmaint-rest-full/tree/main/car-maint-rest-api) built upon my [older repo](https://github.com/SheriffKoder/phase-3/tree/main/projects/car-maint-rest-api).
 - Front-end application; Built ReactJS w/ Typescript & TailwindCSS to display UI to the users and access the REST API [[ Go to folder for more details ]](https://github.com/SheriffKoder/carmaint-rest-full/tree/main/car-maint--react-rest) built upon my [older repo](https://github.com/SheriffKoder/phase-3/tree/main/projects/car-maint--react-rest).
 ##
 >**Description - [[ Live Demo ]](https://carmaint-rest-full-react.vercel.app/)**
