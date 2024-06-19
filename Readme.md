@@ -18,6 +18,7 @@ but not just track with a due date, also a check history and know where this che
 - Sign-up or login to you your account
 - Add a car to be promoted to access your profile.
 - Where you can edit the car's info or delete the car (deleting will remove all checkups).
+- *alternatively you can use this account [ test@email.com / pass: 1111 ]*
 ######
 - **[ Add a checkup ]**
 - Add a new checkup
