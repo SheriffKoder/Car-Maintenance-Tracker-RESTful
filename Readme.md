@@ -76,4 +76,5 @@ but not just track with a due date, also a check history and know where this che
 - **[ Part 2 ]**
 - Clone or download the front-end app folder.
 - Open the front-end folder in your IDE and run "npm install" then "npm run start" in the terminal.
+- Add a ".env" file to the root directory with this variable, or point the value to the API's url REACT_APP_CURRENT_URL=http://localhost:8000
 - Open http://localhost:3000/ in your browser then you can sign-up / sign-in and use the app functionalities.
