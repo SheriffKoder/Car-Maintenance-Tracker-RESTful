@@ -1,7 +1,7 @@
 
 # Car-Maintenance's application logic
   
-  > this information is for understanding the logic and how files link together, not yet for how to use the API.
+> this information is for understanding the logic and how files link together
 
   
 
