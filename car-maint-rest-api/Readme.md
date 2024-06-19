@@ -90,8 +90,3 @@ find the car
 access the checks array and find the check with this checkIndex
 filter out from the found check any instance containing the historyIndex
 returns a car object on success or a string on failure.
-
-##
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-To learn React, check out the [React documentation](https://reactjs.org/).
