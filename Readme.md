@@ -12,7 +12,7 @@ The app allows you to add details for your car
 and add multiple checkups, each with a different name, color and due date.
 but not just track with a due date, also a check history and know where this check was completed and how many times.
 
-![desktop screenshot](wallpaper1.png) ![phone screenshot](wallpaper2.png)
+![desktop screenshot](wallpaper1.png)
 >## **How to use**
 - **[ Setup your account ]**
 - Sign-up or login to you your account
