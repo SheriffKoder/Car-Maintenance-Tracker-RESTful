@@ -156,5 +156,5 @@ exports.login = (req, res, next) => __awaiter(void 0, void 0, void 0, function* 
 });
 exports.test = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     console.log("test success");
-    return res.status(200).json({ one: "test output" });
+    return res.status(200).json("ready");
 });

@@ -1,10 +1,12 @@
-import React from "react"
+import React, { useEffect, useRef, useState } from "react"
 import GradientButtonBorderRounded from "./misc/GradientButtonBorderRounded";
 import { useNavigate } from "react-router-dom";
+
 
 const WelcomePage = () => {
 
     const navigate = useNavigate();
+
 
 
     return (

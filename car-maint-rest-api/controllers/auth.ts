@@ -212,7 +212,9 @@ exports.login = async (req: Request, res:Response, next: NextFunction) => {
 exports.test = async (req: Request, res:Response, next: NextFunction) => {
 
     console.log("test success");
-    return res.status(200).json({one:"test output"});
+
+    return res.status(200).json("ready");
+
 
 
 

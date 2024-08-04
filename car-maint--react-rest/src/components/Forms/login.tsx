@@ -177,8 +177,8 @@ const Login = () => {
     /////////////////////////////////////////////////////////////
     //API 0.1 - login
     const [loginInfo, setLoginInfo] = useState({
-        email: "",
-        password: ""
+        email: "test@email.com",
+        password: "1111"
     });
     /////////////////////////////////////////////////////////////
 
@@ -208,7 +208,7 @@ const Login = () => {
         console.log(apiResponse.status);
 
         setUser(res);
-        // navigate("/");
+        navigate("/");
     }
 
     const handleSubmit2: FormEventHandler<HTMLFormElement> = async (e) => {
@@ -278,7 +278,7 @@ const Login = () => {
                                 text-center">Password</span>
                                 <input className="w-[70%] text-[#000000d6]
                                 px-2 py-[1px] outline-none selection:bg-[#3c8bc374]
-                                bg-[#e3f4ff]" type="text"
+                                bg-[#e3f4ff]" type="password"
                                 name="password" value={password} onChange={handleChange}/>
 
                             
